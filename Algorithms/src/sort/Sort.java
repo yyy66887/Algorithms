@@ -15,7 +15,7 @@ public abstract class Sort {
 	}
 	public void show(Comparable[] c){
 		for(Comparable i:c){
-			System.out.println(i);
+			System.out.print(i+"  ");
 		}
 	}
 
